@@ -1,0 +1,65 @@
+{
+	"name": "flowbite-astro-admin-dashboard",
+	"version": "1.0.2",
+	"private": "true",
+	"description": "A free and open-source admin dashboard template built with Tailwind CSS, Flowbite and Astro",
+	"keywords": [
+		"tailwind",
+		"tailwind css",
+		"flowbite",
+		"admin dashboard",
+		"dashboard ui",
+		"admin dashboard template",
+		"html",
+		"css",
+		"astro",
+		"astro-theme",
+		"astro-template",
+		"javascript"
+	],
+	"homepage": "https://flowbite.com",
+	"bugs": "https://github.com/themesberg/flowbite-astro-admin-dashboard/issues",
+	"repository": "https://github.com/themesberg/flowbite-astro-admin-dashboard.git",
+	"license": "MIT",
+	"author": "Bergside Inc.",
+	"contributors": [
+		"Zoltán Szőgyényi <https://twitter.com/zoltanszogyenyi>",
+		"Robert Tanislav <https://twitter.com/roberttanislav>",
+		"Julian Cataldo <https://twitter.com/Julian_Cataldo>"
+	],
+	"type": "module",
+	"scripts": {
+		"astro": "astro",
+		"build": "astro build",
+		"dev": "astro dev",
+		"preview": "astro preview",
+		"start": "astro dev"
+	},
+	"dependencies": {
+		"@astrojs/sitemap": "^3.0.4",
+		"@astrojs/tailwind": "^5.1.0",
+		"@faker-js/faker": "^7.6.0",
+		"apexcharts": "^3.45.1",
+		"astro": "^4.1.1",
+		"flowbite": "^2.2.1",
+		"flowbite-typography": "^1.0.3",
+		"shiki": "^0.14.7",
+		"tailwind-scrollbar": "^3.0.5",
+		"tailwindcss": "^3.4.1"
+	},
+	"devDependencies": {
+		"@types/eslint": "^8.56.1",
+		"@typescript-eslint/eslint-plugin": "^5.62.0",
+		"@typescript-eslint/parser": "^5.62.0",
+		"astro-eslint-parser": "^0.11.0",
+		"eslint": "^8.56.0",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-config-airbnb-typescript": "^17.1.0",
+		"eslint-config-prettier": "^8.10.0",
+		"eslint-import-resolver-typescript": "^3.6.1",
+		"eslint-plugin-astro": "^0.23.0",
+		"eslint-plugin-import": "^2.29.1",
+		"eslint-plugin-prettier": "^4.2.1",
+		"eslint-plugin-tsdoc": "^0.2.17"
+	}
+}
